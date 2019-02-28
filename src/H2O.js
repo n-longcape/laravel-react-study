@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
-class H2O extends React.Component {
+export class H2O extends React.Component {
   constructor(props) {
     super(props);
     this.state = { temp: 15 };
